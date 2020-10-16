@@ -1,0 +1,30 @@
+public class class1 {
+    public static void main(String arg[])
+    {
+        System.out.println("Going to display the text");
+        class2 here= new class2();
+        here.show();
+
+    }
+}
+
+
+
+public class class2 {
+    void show()
+    {
+        class3 n= new class3();
+        n.change();
+    }
+}
+
+
+
+public class class3 {
+    void change()
+    {
+        System.out.println("\nShow The Text there!");
+    }
+}
+
+
