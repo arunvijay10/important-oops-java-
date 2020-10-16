@@ -1,0 +1,26 @@
+public class class1{
+    class1()
+    {
+        System.out.println("This is First Constructor");
+    }
+}
+
+
+
+public class class2 extends class1{
+    class2()
+    {
+        System.out.println("This is the class 2 constructor ");
+    }
+}
+
+
+public class class3
+{
+    public static void main(String Arg[])
+    {
+        class2 info= new class2();
+        System.out.println("Hopefully Everything works fine ");
+
+    }
+}
