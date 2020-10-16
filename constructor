@@ -1,5 +1,6 @@
 *without return type(no void  , int ,char)
-*constructor should have same class name otherwise there will be a error
+*constructor should have same class name otherwise there will be an error
+*You have to create a object also
 
 public class class1 {
     public static void main(String arg[])
