@@ -1,0 +1,29 @@
+public class class1 {
+    public static void main(String arg[])
+    {
+       class2 obj1 = new class2();
+       class3 obj2 =new class3();
+
+    }
+}
+
+
+public class class2 {
+    class2()
+    {
+       System.out.println("This is a Constructor Message");
+    }
+}
+
+
+public class class3 {
+    int number1,number2,number3;
+    class3()
+    {
+        number1=40;
+        number2=50;
+        number3=number1+number2;
+        System.out.println("This is the sum of two number's:  "+number3);
+    }
+}
+
