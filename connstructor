@@ -1,0 +1,19 @@
+*without return type(no void  , int ,char)
+*constructor should have same class name otherwise there will be a error
+
+public class class1 {
+    public static void main(String arg[])
+    {
+       class2 n = new class2();
+
+    }
+}
+
+
+
+public class class2 {
+    class2()
+    {
+       System.out.println("This is a Constructor Message");
+    }
+}
