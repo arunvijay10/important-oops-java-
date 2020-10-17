@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class class1{
+    public static void main(String arg[]) {
+        int num1, num2;
+        Scanner Store = new Scanner(System.in);
+        System.out.println("Enter First Number: ");
+        num1 = Store.nextInt();
+        System.out.println("Enter Second Number: ");
+        num2 = Store.nextInt();
+
+
+        class2 x1 = new class2();
+        x1.cl();
+    }
+
+
+}
+
+
+import java.util.Scanner;
+public class  class2 {
+    public static void main(String Ar[]) {
+        System.out.println("Hey");
+    }
+        int num1, num2;
+        Scanner nes = new Scanner(System.in);
+
+        void cl ()
+        {
+            System.out.println("Enter 1st number");
+            num1 = nes.nextInt();
+            System.out.println("Enter 2nd number");
+            num2 = nes.nextInt();
+
+            System.out.println("Number1:" + num1 + "Number2:" + num2);
+        }
+    }
+
