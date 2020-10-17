@@ -1,0 +1,29 @@
+This will show the function of class1
+
+
+public class class1
+{
+    void display()
+    {
+        System.out.println("This is a function OVERRIDING");
+    }
+}
+
+
+
+public class class2 extends class1
+{
+    void display()
+    {
+        System.out.println("This is will Display the message of the class 1");
+        super.display();
+
+    }
+    public static  void main(String Args[])
+    {
+        System.out.println("Create an Object here");
+        class2 obj= new class2();
+        obj.display();
+
+    }
+}
