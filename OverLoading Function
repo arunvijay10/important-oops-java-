@@ -1,0 +1,23 @@
+public class class1
+{
+    void display()
+    {
+        System.out.println("This is a function OVERLOADING");
+    }
+}
+
+
+public class class2
+{
+    void display()
+    {
+        System.out.println("This is will not Display the message of the class 1");
+    }
+    public static  void main(String Args[])
+    {
+        System.out.println("Create an Object here");
+        class2 obj= new class2();
+        obj.display();
+
+    }
+}
