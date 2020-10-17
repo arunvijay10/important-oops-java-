@@ -8,3 +8,15 @@ function
 super key in function overriding 
 constructor () name specification 
 abstract
+Abstraction
+interface
+package
+Access specifiers
+private
+protected
+Default
+public
+Exception
+Thread
+Extend Thread class &Implement     Runnable interface
+Thread.sleep
