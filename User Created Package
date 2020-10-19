@@ -1,0 +1,31 @@
+package hope.believe.create;
+import output.*;
+public class pkg {
+    public static void main(String arg[])
+    {
+        output obj= new output();
+        obj.out();
+        int num1;
+    }
+           
+
+
+}
+
+
+package output;
+public class output{
+    public static  int x;
+    public static int z;
+    public static void main(String arg[]){
+
+        System.out.println("Global Variable ");
+
+    }
+    public void out(){
+         x=45;
+         z=66;
+         System.out.println("x"+x);
+         System.out.println("z"+z);
+    }
+}
