@@ -1,0 +1,29 @@
+ public  abstract class class1
+
+ {
+     public static void main(String arg[]) {
+
+ }
+    abstract void create();
+}
+
+
+
+
+
+class class2 extends class1 {
+    public static void main(String arg[]) {
+//        #class1 n = new class1(); you cannot create the object of the abstract class
+        class2 n= new class2();
+        n.create();
+    }
+
+        void create()
+        {
+            System.out.println("Hello Abstract");
+        }
+
+
+    }
+
+
