@@ -1,0 +1,42 @@
+we can use it for multiple inheritance 
+
+*********we cannot use extends we have to use implements **** look at the code 
+
+interface has big role to play
+we have to use 
+public static final not public static void
+public protected private static keyword is used
+
+
+
+public interface class1
+{
+    public void man();
+}
+
+public interface  class4 {
+    default void co()
+    {
+        System.out.println("Hello Man");
+    }
+
+}
+
+
+
+class class2 implements class1 ,class4
+{
+            public void man()
+        {
+            System.out.println("Interface ");
+        }
+
+    public static void main(String arg[])
+    {
+        class2 n = new class2();
+        n.man();
+        n.co();
+    }
+
+
+}
